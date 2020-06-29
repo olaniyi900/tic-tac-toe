@@ -9,7 +9,7 @@ const App = () => {
         <div>
             <Navbar />
              <Game />
-             <Scrimba name='sule'/>
+             <Scrimba />
         </div>
    
     );
