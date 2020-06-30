@@ -5,11 +5,17 @@ import Navbar from './component/scrimba/Navbar';
 
 
 const App = () => {
+    let style = {
+        display: 'flex'
+    }
     return (
-        <div>
+        <div >
             <Navbar />
-             <Game />
-             <Scrimba />
+            <div style={style}>
+                <Game />
+                <Scrimba />
+            </div>
+             
         </div>
    
     );

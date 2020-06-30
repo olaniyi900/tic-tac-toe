@@ -23,7 +23,7 @@ class GitHubCard extends Component {
         
         return (
         
-            <div>
+            <div >
                { this.state.users.map( (user) => <Card 
                key={user.id}
                avatar_url={user.avatar_url}
