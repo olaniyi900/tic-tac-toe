@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import TodoItem from './TodoItem'
 import GitHubCard from './GitHubCard'
+import FormInput from './FormInput'
 
 function Scrimba(props) {
     const [ isLogIn, setisLogIn ] = useState(false);
@@ -22,6 +23,7 @@ function Scrimba(props) {
         <div style={ style }>
             
             <div>
+                <FormInput />
                 <h2 onClick={handleClick}>You are log {login}</h2>
                 <TodoItem />
                 <TodoItem />
