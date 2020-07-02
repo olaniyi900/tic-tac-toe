@@ -2,3 +2,7 @@ GET https://api.github.com/users/mojombo
 
 ###
 GET https://swapi.dev/api/people
+
+###
+
+GET https://api.imgflip.com/get_memes
